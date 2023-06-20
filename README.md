@@ -41,3 +41,6 @@ Inputs:
 
 ## Output
 If power left is positive then we will output `YES` else output `NO`.
+
+## Testcases
+There are 4 testcases tc1.txt, tc2.txt, tc3.txt, tc4.txt and the answers for respective testcases is in the commit message.
