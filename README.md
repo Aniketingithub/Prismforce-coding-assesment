@@ -22,7 +22,6 @@ test cases.
 
 ```sh
 Inputs: 
-- noOfmonsters = total no of monsters
 - abhimanyuPower = initial power of abhimanyu
 - skips = no of skips allowed for abhimanyu
 - regenerates = no of times abhimanyu is allowed to regenerate his power to initial
