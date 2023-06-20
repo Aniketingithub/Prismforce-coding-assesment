@@ -23,11 +23,10 @@ int DP(vector<int> monster, int i, int P, int A, int B) {
       if(B) {
          dp[i][A][B] = max(dp[i][A][B], DP(monster, i, abhimanyuPower, A, B - 1));
       }
-      return dp[i][A][B];
    } else {
       dp[i + 1][A][B] = max(dp[i + 1][A][B], DP(monster, i + 1, P - monster[i], A, B));
-      return dp[i + 1][A][B];
    }
+   return dp[i][A][B];
 }
 
 int main(){
